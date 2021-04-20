@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  visibility:hidden
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.circle {
+  width:75px;
+  height: 75px;
+  border-radius:100%;
+  background-color: yellow;
+  margin:50px;
+}
+
+.circle.red{
+  background-color: red;
+}
+
+.circle.blue{
+  background-color: blue;
+}
+.main{
+  .container{
+    width: 1440px;
+    height:100vh;
+    
+  }
+}
